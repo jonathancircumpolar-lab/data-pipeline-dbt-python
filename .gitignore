@@ -7,3 +7,4 @@ dev.duckdb
 __pycache__/
 *.pyc
 .vscode/
+*.pbix
