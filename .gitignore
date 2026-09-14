@@ -1,0 +1,9 @@
+venv/
+target/
+dbt_packages/
+logs/
+.env
+dev.duckdb
+__pycache__/
+*.pyc
+.vscode/

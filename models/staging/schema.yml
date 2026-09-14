@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_missions
+    columns:
+      - name: mission_id
+        tests:
+          - unique
+          - not_null
+      - name: agent_id
+        tests:
+          - not_null
+      - name: parcel_status
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Validated', 'Pending', 'Rejected', 'Unknown']
