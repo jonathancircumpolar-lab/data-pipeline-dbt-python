@@ -16,6 +16,9 @@ Synthetic seeds (CSV) -> dbt staging (cleaning) -> dbt marts (aggregation, teste
 - Python (pandas, numpy, matplotlib, duckdb): direct analysis on the mart
 - R: reading/adapting an existing script (not built from scratch) - read a CSV export, adapted the aggregation key from status to site
 - Power BI: Parquet import, stacked bar chart by site and status (no live connector - none stable exists for DuckDB)
+## Power BI report preview
+
+![Power BI dashboard](powerbi/dashboard_screenshot.png)
 
 ## Status
 
